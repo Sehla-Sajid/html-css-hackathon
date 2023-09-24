@@ -1,0 +1,542 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding a background image to the .main div */
+.main {
+  background-image: url(./fiversbg.webp);
+  background-size: cover; /* Ensure the image covers the container */
+  height: 100vh; /* Set a height so the background is visible */
+  background-position: center; /* Center the background image */
+}
+
+/* Rest of your CSS styles here */
+
+nav img {
+  height: 170px;
+  width: 270px;
+  position: absolute;
+  left: 0px;
+  margin-top: 20px;
+}
+span {
+  margin-left: 410px;
+  margin-top: 40px;
+}
+span a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  border: none;
+  border-style: none;
+  border-color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+span option {
+  border: none;
+  border-style: none;
+  border-color: white;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+span select {
+  font-weight: bold;
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+.fa-globe {
+  font-size: 19px;
+  color: black;
+}
+.navbutton {
+  margin-left: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbutton:hover {
+  background-color: lightseagreen;
+}
+.navtext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+  width: 50%;
+  color: white;
+  margin-top: 170px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.navtext .para2 {
+  margin-right: 135px;
+}
+
+.navtextinput {
+  margin-top: 30px;
+  height: 50px;
+  width: 80%;
+  border: none;
+}
+.navpopular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.navpopular p {
+  font-size: 23px;
+}
+.navpopular button {
+  margin-left: 20px;
+  background-color: transparent;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: 1px solid white;
+  border-radius: 9px;
+}
+.navpopular button:hover {
+  background-color: white;
+  color: black;
+}
+/* ===============================================trusted by============= */
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.logo-container .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+/* ===============================================popular services ============= */
+.popularservices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popularservicesp {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 20px;
+  color: grey;
+}
+.box1 {
+  position: relative; /* Make the box a positioning context for absolute positioned content */
+}
+
+.box1 img {
+  height: 330px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+/* Add text on the images */
+.box1::before {
+  content: "ADD TALLENT TO AI"; /* Add your text content here */
+  position: absolute;
+  bottom: 10px; /* Adjust the position from the bottom */
+  left: 10px; /* Adjust the position from the left */
+  background-color: transparent; /* Background color for the text */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  color: black; /* Text color */
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+.box2 {
+  position: relative; /* Make the box a positioning context for absolute positioned content */
+}
+
+.box2 img {
+  height: 330px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+/* Add text on the images */
+.box2::before {
+  content: "BUILD YOUR BRAND"; /* Add your text content here */
+  position: absolute;
+  bottom: 10px; /* Adjust the position from the bottom */
+  left: 10px; /* Adjust the position from the left */
+  background-color: transparent; /* Background color for the text */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  color: black; /* Text color */
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+.box3 {
+  position: relative; /* Make the box a positioning context for absolute positioned content */
+}
+
+.box3 img {
+  height: 330px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+/* Add text on the images */
+.box3::before {
+  content: "CUSTOMIZE YOUR SITE"; /* Add your text content here */
+  position: absolute;
+  bottom: 10px; /* Adjust the position from the bottom */
+  left: 10px; /* Adjust the position from the left */
+  background-color: transparent; /* Background color for the text */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  color: black; /* Text color */
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+.box4 {
+  position: relative; /* Make the box a positioning context for absolute positioned content */
+}
+
+.box4 img {
+  height: 330px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+/* Add text on the images */
+.box4::before {
+  content: "SHARE YOUR MESSAGE"; /* Add your text content here */
+  position: absolute;
+  bottom: 10px; /* Adjust the position from the bottom */
+  left: 10px; /* Adjust the position from the left */
+  background-color: transparent; /* Background color for the text */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  color: black; /* Text color */
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+.box5 {
+  position: relative; /* Make the box a positioning context for absolute positioned content */
+  background-color: transparent;
+}
+
+.box5 img {
+  height: 330px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+/* Add text on the images */
+.box5::before {
+  content: "BUILD YOUR BRAND"; /* Add your text content here */
+  margin-left: 10px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 10px; /* Adjust the position from the bottom */
+  left: 10px; /* Adjust the position from the left */
+  background-color: transparent; /* Background color for the text */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+  color: black; /* Text color */
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+/* =============================best part==================================== */
+.bigdiv {
+  padding: 20px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.best {
+  margin-bottom: 20px;
+}
+.textdiv {
+  font-size: 19px;
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+}
+.textdiv h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.textdiv h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.textdiv p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.videodiv {
+  width: 50%;
+  height: 100%;
+}
+.videodiv img {
+  width: 100%;
+}
+/* ==========================need================= */
+.main5 {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 30vh 30vh;
+}
+.needHeading {
+  margin: 30px;
+}
+.box {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.image3 {
+  width: 80%;
+  height: 100%;
+  margin-bottom: -40px;
+}
+
+.image2 {
+  width: 100%;
+  height: 80%;
+}
+
+.image3 {
+  display: inline-block;
+  position: relative;
+}
+
+.image3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.2rem;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(30, 233, 138);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.image3:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+/* advanceSolution */
+.advanceSolution {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #030165;
+  margin-top: 90px;
+  padding: 30px;
+  color: white;
+}
+.advanceSolution .textArea {
+  width: 50%;
+}
+.advanceSolution .textArea p {
+  margin: 20px 0px;
+}
+.carousel {
+  width: 50%;
+}
+.carousel img {
+  width: 100%;
+}
+/* image work  */
+.imageWork {
+  margin-top: 20px;
+}
+.container1 {
+  margin-top: 30px;
+  display: flex; /* Display the divs in a row */
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between; /* Space them evenly */
+  padding: 20px;
+}
+
+/* Style for each individual div */
+.container1 .box {
+  flex: 0 0 28%; /* Each div takes up 30% of the container width */
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Style for the images */
+.container1 .box img {
+  max-width: 100%;
+  height: auto;
+  height: 80%;
+}
+
+/* Style for the text below the images */
+.container1 .box p {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* ==========================reviews================= */
+.review-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style for the review image */
+.review-image {
+  flex: 0 0 30%; /* Adjust the width of the image side */
+  margin-right: 20px;
+}
+
+.review-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the review text */
+.review-text {
+  flex: 1; /* Take up the remaining space */
+}
+
+.review-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+/* ==========================footer================= */
+footer {
+  margin-top: 100px;
+}
+footer li a:hover {
+  text-decoration: underline;
+}
+.foot-panel-one {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+.foot-panel-one:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.foot-panel-two {
+  background-color: #222f3d;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.foot-panel-two li,
+h4 {
+  list-style-type: none;
+}
+.foot-panel-two li a {
+  text-decoration: none;
+  color: #dddddd;
+  line-height: 23px;
+  font-size: 0.85rem;
+}
+.foot-panel-three {
+  background-color: #222f3d;
+  color: #dddddd;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url(./images/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  transition-duration: 0.25s;
+}
+.logo:hover {
+  cursor: pointer;
+  height: 55px;
+  width: 105px;
+}
+.foot-panel-four {
+  background-color: #0f1111;
+  color: #cccccc;
+  height: 80px;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.foot-panel-four a:hover {
+  text-decoration: underline;
+}
+.pages {
+  padding-top: 25px;
+}
+.pages a {
+  text-decoration: none;
+  color: #cccccc;
+}
+.copyright {
+  text-align: center;
+}
